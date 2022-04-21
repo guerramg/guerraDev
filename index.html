@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Programador Back-End e Front-End :: RAPHAEL GUERRA</title>
+	<meta name="description" content="Desenvolvedor web em bh, back-end e front-end - (31) 97170-0669">
+	<meta name="keywords"
+		content="raphael guerra, programador, desenvolvedor web, freelance, php, mysql, javascript, css, html, vue, laravel, nodejs, websites, softwares">
+	<meta name="author" content="Raphael Guera">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Google Fonts -->
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+
+	<!-- Todos os CSS's usados
+		================================================== -->
+	<!-- Fontawesome  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- jquery.fancybox  -->
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<!-- animações -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Estilo principal -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- responsivos -->
+	<link rel="stylesheet" href="css/media-queries.css">
+
+	<!-- js para tratar acesso por dispositivos antigos -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+
+</head>
+
+<body id="body">
+
+	<!-- preloader do bender kkkkk -->
+	<div id="preloader">
+		<img src="img/preloader.gif" alt="Carregando">
+	</div>
+	<!-- end preloader -->
+
+	<!-- 
+        Fixed Navigation
+        ==================================== -->
+	<header id="navigation" class="navbar-fixed-top navbar">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- responsive nav button -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<i class="fa fa-bars fa-2x"></i>
+				</button>
+				<!-- /responsive nav button -->
+
+				<!-- logo -->
+				<a class="navbar-brand" href="#body">
+					<h1 id="logo" class="logo">
+						<!-- <img src="img/logo.png" alt="Brandi"> -->Guerra
+					</h1>
+				</a>
+				<!-- /logo -->
+			</div>
+
+			<!-- menus nav -->
+			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+				<ul id="nav" class="nav navbar-nav">
+					<li class="current"><a href="#body">Home</a></li>
+					<li><a href="#features">Habilidades</a></li>
+					<li><a href="#works">Trabalhos</a></li>
+					<li><a href="#team">Sobre</a></li>
+					<li><a href="#contato">Fale Comigo</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	<section id="slider">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+			<!-- Indicators bullet -->
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<!-- End Indicators bullet -->
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+
+				<!-- single slide -->
+				<div class="item active" style="background-image: url(img/banner-3.jpg);">
+					<div class="carousel-caption">
+						<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">
+							Raphael<span> Guerra</span></h2>
+						<h3 data-wow-duration="1000ms" class="wow slideInLeft animated"><span
+								class="color">Programador</span> Back-end e Front-end</h3>
+						<p data-wow-duration="1000ms" class="wow slideInRight animated">Em constante aprendizado
+						</p>
+
+						<ul class="social-links text-center">
+							<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+							<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- end single slide -->
+
+				<!-- single slide -->
+				<div class="item" style="background-image: url(img/banner-1.jpg);">
+				</div>
+				<!-- end single slide -->
+
+
+				<!-- single slide -->
+				<div class="item" style="background-image: url(img/banner-2.jpg);">
+				</div>
+				<!-- end single slide -->
+
+			</div>
+			<!-- End Wrapper for slides -->
+
+		</div>
+	</section>
+
+	<!--
+        End Home SliderEnd
+        ==================================== -->
+
+	<!--
+        Features
+        ==================================== -->
+
+	<section id="features" class="features">
+		<div class="container">
+			<div class="row">
+
+				<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+					<h2>Habilidades</h2>
+					<div class="devider"><i class="fab fa-connectdevelop"></i></div>
+				</div>
+
+				<!-- service item -->
+				<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+					<div class="service-item">
+						<div class="service-icon">
+							<i class="fas fa-code"></i>
+						</div>
+
+						<div class="service-desc">
+							<h3>Desenvolvedor</h3>
+							<p>Domínio nas linguagens html, css, php, mysql, javascript além de conhecimento em vários
+								frameworks como laravel, node e jquery.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end service item -->
+
+				<!-- service item -->
+				<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="900ms">
+					<div class="service-item">
+						<div class="service-icon">
+							<i class="fas fa-palette"></i>
+						</div>
+
+						<div class="service-desc">
+							<h3>Design Gráfico</h3>
+							<p>Dominio total nas ferramentas do corel draw e photoshop, experiência em gráficas e
+								copiadoras por mais de 2 anos.</p>
+						</div>
+					</div>
+				</div>
+				<!-- end service item -->
+
+				<!-- service item -->
+				<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+					<div class="service-item">
+						<div class="service-icon">
+							<i class="fas fa-project-diagram"></i>
+						</div>
+
+						<div class="service-desc">
+							<h3>Versatilidade</h3>
+							<p>Gosto de usar boas práticas no desenvolvimento, códigos bem estruturados, utilizando
+								outras tecnologias que enriqueçam o projeto garantindo uma maior qualidade e vida útil.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- end service item -->
+
+			</div>
+		</div>
+	</section>
+
+	<section id="works" class="works clearfix">
+		<div class="container">
+			<div class="row">
+
+				<div class="sec-title text-center">
+					<h2>Trabalhos</h2>
+					<div class="devider"><i class="fab fa-connectdevelop"></i></div>
+				</div>
+
+				<div class="sec-sub-title text-center">
+					<p>Abaixo alguns de meus trabalhos como desenvolvedor, projetos back-end e front-end.</p>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="project-wrapper">
+
+			<figure class="mix work-item branding">
+				<img src="img/trabalhos/portal.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" title="Portal Guerra" href="img/trabalhos/portal.jpg"><i
+							class="fa fa-eye fa-lg"></i></a>
+					<a href="https://guerra.app.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Portal Guerra Empreendimentos</h4>
+					<p>Website em html, css3 e php</p>
+				</figcaption>
+			</figure>
+
+			<figure class="mix work-item web">
+				<img src="img/trabalhos/studio.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" rel="works" title="Studio Guerra Treinamentos"
+						href="img/trabalhos/studio.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<a href="https://studio.guerra.app.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Website Studio Guerra Treinamentos</h4>
+					<p>Projeto desenvolvido com bootstrap, jquery e php.</p>
+				</figcaption>
+			</figure>
+
+			<figure class="mix work-item logo-design">
+				<img src="img/trabalhos/guerra.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" rel="works" title="Portifólio Raphael Guerra"
+						href="img/trabalhos/guerra.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<a href="https://dev.guerra.app.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Portifólio Raphael Guerra</h4>
+					<p>Projeto desenvolvido com bootstrap, jquery e php.</p>
+				</figcaption>
+			</figure>
+
+			<figure class="mix work-item photography">
+				<img src="img/trabalhos/leandro.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" rel="works" title="Clínica Dr. Leandro Cunha Campos"
+						href="img/trabalhos/leandro.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<a href="https://clinica.odontonanuvem.com.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Website da Clínica Dr. Leandro Cunha Campos</h4>
+					<p>Projeto desenvolvido com bootstrap, jquery e php.</p>
+				</figcaption>
+			</figure>
+
+			<figure class="mix work-item branding">
+				<img src="img/trabalhos/odonto.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" rel="works" title="Sistema de Gestão Odonto na Nuvem"
+						href="img/trabalhos/odonto.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<a href="https://gestor.odontonanuvem.com.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Software de Gestão Odontológica</h4>
+					<p>Projeto desenvolvido e mantido desde 2011, as tecnologia usadas até o momento são php, mysql, javascript e python.</p>
+				</figcaption>
+			</figure>
+
+			<figure class="mix work-item web">
+				<img src="img/trabalhos/2brain.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" rel="works" title="Sistema 2Brain"
+						href="img/trabalhos/2brain.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<a href="https://guerra.app.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Sistema de Lembretes</h4>
+					<p>Projeto desenvolvido através do framework laravel com as tecnologia php, mysql e javascript.</p>
+				</figcaption>
+			</figure>
+
+			<figure class="mix work-item logo-design">
+				<img src="img/trabalhos/flash.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" rel="works" title="Website Flash Produções"
+						href="img/trabalhos/flash.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<a href="https://estudioflash.com.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Website Flash Produções</h4>
+					<p>Projeto desenvolvido em php, mysql e javascript.</p>
+				</figcaption>
+			</figure>
+
+			<figure class="mix work-item photography">
+				<img src="img/trabalhos/bhespumas.jpg" alt="">
+				<figcaption class="overlay">
+					<a class="fancybox" rel="works" title="Catálogo Digital"
+						href="img/trabalhos/bhespumas.jpg"><i class="fa fa-eye fa-lg"></i></a>
+						<a href="https://bhespumas.com.br" target="_blank"><i class="fas fa-link fa-lg"
+							title="Acessar Projeto"></i></a>
+					<h4>Catálogo Digital BH Espumas</h4>
+					<p>Projeto desenvolvido em php e mysql.</p>
+				</figcaption>
+			</figure>
+
+		</div>
+
+
+	</section>
+
+	<!--
+        End Our Works
+        ==================================== -->
+
+	<!--
+        Meet Our Team
+        ==================================== -->
+
+	<section id="team" class="team">
+		<div class="container">
+			<div class="row">
+
+				<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+					<h2>Sobre</h2>
+					<div class="devider"><i class="fab fa-connectdevelop"></i></div>
+				</div>
+
+				<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+					<p>Formado em Sistemas para Internet pela INED, trabalho com desenvolvimento de sistemas,
+						sites, intranets utilizando diversas tecnologias. Atualmente trabalho como programador pleno na
+						rede odontologica Odonto na Nuvem, desde 2011, além de realizar trabalhos freelance; uso PHP e javascript como principal linguagem de programação. Gosto
+						de usar padrões no desenvolvimento, códigos bem documentados, estruturados e qualquer outra nova
+						tecnologia que possa favorecer o projeto garantindo uma maior qualidade e vida útil para o sistema.
+					</p>
+				</div>
+
+				<!-- single member -->
+				<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+					data-wow-duration="500ms">
+					<div class="member-thumb">
+						<img src="img/guerra.jpg" alt="Guerra" class="img-responsive" style="border-radius: 1rem;">
+						<figcaption class="overlay">
+							<ul class="social-links text-center">
+								<li><a href=""><i class="fab fa-instagram fa-lg"></i></a></li>
+							</ul>
+						</figcaption>
+					</div>
+					<h4>Raphael Guerra</h4>
+					<span>Programador</span>
+				</figure>
+				<!-- end single member -->
+			</div>
+		</div>
+	</section>
+
+	<!--
+        End Meet Our Team
+        ==================================== -->
+
+	<!--
+        Some fun facts
+        ==================================== -->
+
+	<section id="facts" class="facts">
+		<div class="parallax-overlay">
+			<div class="container">
+				<div class="row number-counters">
+
+					<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+						<h2>Algumas Curiosidades</h2>
+						<div class="devider"><i class="fab fa-connectdevelop"></i></div>
+					</div>
+
+					<!-- first count item -->
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated"
+						data-wow-duration="500ms">
+						<div class="counters-item">
+							<i class="fa fa-clock fa-3x"></i>
+							<strong data-to="4000">0</strong>
+							<!-- Set Your Number here. i,e. data-to="56" -->
+							<p>Houras de Programação</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
+						data-wow-delay="300ms">
+						<div class="counters-item">
+							<i class="fa fa-users fa-3x"></i>
+							<strong data-to="200">0</strong>
+							<!-- Set Your Number here. i,e. data-to="56" -->
+							<p>Clientes Atendidos</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
+						data-wow-delay="600ms">
+						<div class="counters-item">
+							<i class="fa fa-rocket fa-3x"></i>
+							<strong data-to="350">0</strong>
+							<!-- Set Your Number here. i,e. data-to="56" -->
+							<p> Projetos Entregues </p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms"
+						data-wow-delay="900ms">
+						<div class="counters-item">
+							<i class="fa fa-trophy fa-3x"></i>
+							<strong data-to="15">0</strong>
+							<!-- Set Your Number here. i,e. data-to="56" -->
+							<p>Certificações</p>
+						</div>
+					</div>
+					<!-- end first count item -->
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contato" class="contact">
+		<div class="container">
+			<div class="row mb50">
+
+				<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+					<h2>Entre em Contato</h2>
+					<div class="devider"><i class="fab fa-connectdevelop"></i></div>
+				</div>
+
+				<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+					<p>Tem interesse em meus serviços? Ficaria honrado em lhe atender.</p>
+				</div>
+
+				<!-- contact address -->
+				<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+					<div class="contact-address">
+						<h3>Atendimento remoto em todo globo.</h3>
+						<p>(31) 97170-0669</p>
+					</div>
+				</div>
+				<!-- end contact address -->
+
+				<!-- contact form -->
+				<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms"
+					data-wow-delay="300ms">
+					<div class="contact-form">
+						<form action="#" id="contact-form">
+							<div class="input-group name-email">
+								<div class="input-field">
+									<input type="text" name="name" id="name" placeholder="Nome" class="form-control">
+								</div>
+								<div class="input-field">
+									<input type="email" name="email" id="email" placeholder="Email"
+										class="form-control">
+								</div>
+							</div>
+							<div class="input-group">
+								<textarea name="message" id="message" placeholder="Messagem"
+									class="form-control"></textarea>
+							</div>
+							<div class="input-group">
+								<input type="submit" id="form-submit" class="pull-right" value="Enviar">
+							</div>
+						</form>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+
+	<!--
+        End Contact Us
+        ==================================== -->
+
+
+	<footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="copyright text-center">
+						2022 - Todos os direitos reservados.
+					</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+	<!-- Essential jQuery Plugins
+		================================================== -->
+	<!-- Main jQuery -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- Single Page Nav -->
+	<script src="js/jquery.singlePageNav.min.js"></script>
+	<!-- Twitter Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- jquery.fancybox.pack -->
+	<script src="js/jquery.fancybox.pack.js"></script>
+	<!-- jquery.mixitup.min -->
+	<script src="js/jquery.mixitup.min.js"></script>
+	<!-- jquery.parallax -->
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<!-- jquery.countTo -->
+	<script src="js/jquery-countTo.js"></script>
+	<!-- jquery.appear -->
+	<script src="js/jquery.appear.js"></script>
+	<!-- Contact form validation -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+	<!-- Google Map -->
+	<script type="text/javascript"
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+	<!-- jquery easing -->
+	<script src="js/jquery.easing.min.js"></script>
+	<!-- jquery easing -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		var wow = new WOW({
+			boxClass: 'wow',      // animated element css class (default is wow)
+			animateClass: 'animated', // animation css class (default is animated)
+			offset: 120,          // distance to the element when triggering the animation (default is 0)
+			mobile: false,       // trigger animations on mobile devices (default is true)
+			live: true        // act on asynchronously loaded content (default is true)
+		}
+		);
+		wow.init();
+	</script>
+	<!-- Custom Functions -->
+	<script src="js/custom.js"></script>
+
+	<script type="text/javascript">
+		$(function () {
+			/* ========================================================================= */
+			/*	Contact Form
+			/* ========================================================================= */
+
+			$('#contact-form').validate({
+				rules: {
+					name: {
+						required: true,
+						minlength: 2
+					},
+					email: {
+						required: true,
+						email: false
+					},
+					message: {
+						required: true
+					}
+				},
+				messages: {
+					name: {
+						required: "Campo obrigatório",
+						minlength: "Este campo tem o mínimo de 2 caracteres"
+					},
+					email: {
+						required: "Campo obrigatório"
+					},
+					message: {
+						required: "Campo obrigatório",
+						minlength: "Mensagem muito curta"
+					}
+				},
+				submitHandler: function (form) {
+					$(form).ajaxSubmit({
+						type: "POST",
+						data: $(form).serialize(),
+						url: "envia.php",
+						success: function () {
+							$('#contact-form :input').attr('disabled', 'disabled');
+							$('#contact-form').fadeTo("slow", 0.15, function () {
+								$(this).find(':input').attr('disabled', 'disabled');
+								$(this).find('label').css('cursor', 'default');
+								$('#success').fadeIn();
+							});
+						},
+						error: function () {
+							$('#contact-form').fadeTo("slow", 0.15, function () {
+								$('#error').fadeIn();
+							});
+						}
+					});
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>
