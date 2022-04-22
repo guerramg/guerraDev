@@ -447,6 +447,7 @@ top: -8px;
 .member-thumb {
   width: 273px;
   position: relative;
+  margin: auto;
 }
 
 .member-thumb .overlay h5 {
